@@ -1,0 +1,435 @@
+/* *{
+  box-sizing: border-box;
+}
+html {
+	font-size: 100%;
+} */
+
+body{
+  font-size: 0.7rem;
+  font-family: 'Open Sans Condensed' ;
+  /* min-height:100vh; */
+  background-color:#FFFCE6 ;
+  border-color: #FFFCE6 ;
+  border-width:10px;
+  border-style: outset;
+}
+body , ul li{
+  background-color : ghostwhite;
+}
+
+.wrap , aside {
+  border-style: inset;
+}
+
+.wrap{
+  box-sizing: border-box;
+  display: "flex";
+  margin: 0 auto;
+  padding: 0 auto;
+  width: 95%;
+  max-height:85%;
+  border-width:20px;
+  color: #506AD4;
+  font-family: sans-serif;
+   background-color:#FFFCE6 ;
+  background-image: url("../img/hat.JPG" alt=" author");
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+
+
+nav ul ,footer ul {
+  display: flex;
+  justify-content: space-between;
+  margin:10px;
+  padding: 3px;
+  text-align: center;
+}
+
+h1{
+  font-family: "Poiret One";
+  padding-left: 20%;
+}
+li, a{
+  text-decoration: none;
+}
+li{
+  font-family: "Indie Flower";
+  border:3px solid black;
+  width: 220px;
+  height: 55px;
+  padding: 10px;
+  justify-content: center;
+  text-decoration: none;
+}
+footer ul li{
+  font-size: 0.7em;
+}
+
+footer ul li img{
+  width: 25px;
+  height: 25px;
+}
+nav ul{
+  font-size:0.6em;
+}
+nav ul ,footer ul li {
+  text-decoration: none;
+  width: auto;
+  height: auto;
+}
+ul li{
+  list-style: none;
+}
+aside{
+  display : flex;
+  justify-content: space-between;
+  width: 80%;
+  height:90%;
+  margin: 2% 75% 2% 3%;
+}
+aside .portfolio{
+  width: 500px;
+}
+
+aside img{
+  margin: 1px auto;
+  padding: 7px;
+  width: 60%;
+  height:90%;
+  border-size : 10px;
+
+}
+aside img, .portfolio{
+    border-style: outset;
+}
+
+/* index file  */
+.bgImag{
+  background-image: url("../img/hat.JPG");
+  "../img/hat.JPG" alt=" author"
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+ .dash{
+  /* background-image: url("../img/rachmaninof.jpg");
+  background-repeat:no-repeat;
+  background-size: cover; */
+}
+.introduction{
+  text-align: center;
+  margin: 0 auto;
+  padding-right: 20%;
+  padding-top: 6%;
+
+}
+dt{
+    color:#BFAF80;
+}
+dd{
+  color: black;
+}
+
+.connect img{
+  width : 400px ;
+  height : 300px;
+}
+.connectPhoto{
+  width: 20%;
+  height: 20%;
+  padding: inherit;
+}
+
+.experience{
+  text-align: center;
+}
+
+/*----------------------------------------------------- CV file */
+aside .portrait img{
+  width: 92%;
+  height: 83%;
+}
+.commentaire {
+  color: #FFFCE6;
+  text-align: center;
+}
+.formation{
+  width: 65%;
+  height: 10%;
+  margin: 0 auto;
+  padding: 1%;;
+}
+
+.frmaCom ,.competence, .centrInterest{
+  background-color: #BFAF80;
+}
+.competence, .centrInterest{
+    padding: 3%;
+}
+.centrInterest , .hobby , .livre, .formation, .competence, .lien{
+  border: 1px solid black;
+}
+.bas{
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  height: 40%;
+  margin: 0 auto;
+  padding: 3%;
+
+}
+.bas , fieldset{
+  background-color: #FFFCE6 ;
+}
+
+.hobby , .competence, .lien{
+  padding: 2%;
+  background-color: #F2E8C9;
+  width:70%;
+}
+.livre ,.lien{
+  background-color: #A3CDD9;
+  text-align: center;
+}
+
+
+.cursus{
+  width: 80px;
+  height: 240px;
+}
+.cursus li{
+  width: 450px;
+  height: 60px;
+}
+.comment{
+  margin-left: 10px;
+}
+
+figure{
+  display : flex;
+  justify-content: space-around;
+}
+.table1, .table2{
+  order : 1 ;
+  width : 40%;
+  height : 25%;
+  cellspacing : 0;
+  cellpading : 6;
+  border-collapse : collapse;
+  border: 1px solid black;
+}
+.titleName, .maritalStatus, .titleFirstName, .nbrechild,.myPlace, .PostalCode, .myCity{
+  width :15%;
+  bgcolor : blue;
+  align : right;
+  border : 1px solid black;
+  font color: white;
+}
+.myName, .maritalStatusId, .myFirstName, .nbrechildId, .myPlaceId, .PostalCodeId,.myCityId{
+  width : 15%;
+  align : left;
+  border : 1px solid black;
+  font color : black;
+}
+.loisirs{
+  display : flex;
+  justify-content : space-between;
+}
+
+/* ----------------------------------------------------contact file */
+form{
+  text-align: center;
+}
+article{
+padding: 1%;
+}
+fieldset{
+  margin: 1% auto;
+  width : 98%;
+  justify-content: space-between;
+  border :1px dotted black;
+  border-radius:5px;
+}
+.choixAct , .teamTechnol, .condProjOther{
+  display: flex;
+  justify-content: space-between;
+}
+
+.civilite{
+  display : flex;
+  justify-content : space-around;
+}
+button{
+font-family:
+}
+/*-------------------------- About file------------------------------ */
+.centrInterest{
+  color:;
+  text-align: left;
+  background-color: ;
+}
+.centrInterest img{
+  margin-left: 13%;
+ text-align: center;
+  width: 220px;
+  height: 120px;
+}
+
+.hobby{
+  width: 45%;
+}
+.hobby img{
+  margin 0 auto;
+  width: 180px;
+  height: 80px;
+}
+.livre img{
+  width: 240px;
+  height: 60%;
+}
+ .basAb{
+  height: 400px;
+  position: absolute
+  left: 15%;
+}
+.centrInterest , .hobby , .lien{
+  margin-right: 1%;
+
+}
+
+
+/* --------------------------------------------------------------------- */
+/*------------------------ Media queries ---------------------------------*/
+/* ------------------------------------------------------------------------- */
+@media (min-width: 380px) {
+  html {
+  	font-size: 150%;
+  }
+}
+
+@media (max-width: 380px) {
+
+        .wrap{
+          min-height:calc(100vh - 124px);
+          background-color:#FFFCE6 ;
+
+        }
+    }
+
+/* ------------------Smart phone------------------------- */
+
+@media (max-width: 438px) {
+        .connect img{
+        display: none;
+        }
+    }
+
+@media(max-width: 544px){
+   .connectAct{
+  max-width: 70%;
+  }
+}
+
+/* ----------------------------------------------- */
+
+@media(max-width: 530px){
+   .navFile{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .navFile li{
+    text-align: center;
+      margin: 2px;
+      width: 98%;
+  }
+ .accueil picture img{
+    display: none;
+  }
+}
+@media(max-width: 573px){
+    .connect img{
+    width: 300px;
+    height: 200px;
+  }
+}
+
+/* ------------------------------Sticking wrapper---------------- */
+@media (min-width: 620px) {
+        .wrap{
+          min-height:calc(100vh - 65px);
+        }
+  }
+
+
+@media(max-width: 665px){
+   .foot{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .foot li{
+    margin: 2px;
+  }
+}
+/* cv */
+
+@media(max-width: 769px){
+   .choixAct{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between;*/
+    flex-wrap: wrap;
+  }
+}
+
+
+@media(max-width: 1011px){
+       .bas{
+        display: flex;
+        /* flex-direction: column; */
+        /* justify-content: space-between;*/
+        flex-wrap: wrap;
+      }
+      .portrait{
+        display: none;
+      }
+      .centrInterest , .hobby , .livre{
+        max-width: 45%;
+        max-height: 50%;
+      }
+    .livre img ,  .centrInterest img, .hobby img{
+      display: none;
+      }
+      .bas_f{
+        font-size: 0.7em;
+      }
+      .competence , .lien{
+        width: 100%;
+      }
+}
+
+/* ########################   LARGE DESKTOPS   ######################### ##*/
+/* ####################################################################### */
+/*1010px and up*/
+
+@media (min-width: 1025px) {
+  html {
+  	font-size: 200%;
+  }
+}
+@media screen and (min-width: 1140px) {
+
+.wrapper {
+ margin: 0 auto;
+}
+.wrap {
+ min-height:(100vh);
+
+}
+.bas{
+  width: 100%;
+  }
+}
