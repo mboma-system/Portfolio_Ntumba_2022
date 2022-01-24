@@ -174,18 +174,19 @@ aside .portrait img{
   color: black;
   display: flex;
   justify-content: space-between;
-  width: 95%;
+  width: 85%;
   height: 40%;
   margin: 0 auto;
-  padding: 3%;
+  padding: 2%;
 
 }
 .bas , fieldset{
-  background-color: #FFFCE6 ;
+  /* background-color: #FFFCE6 ; */
+  background-color: #FFF;
 }
 
 .hobby , .competence, .lien{
-  padding: 2%;
+  padding: 1%;
   background-color: #F2E8C9;
   width:70%;
 }
@@ -264,6 +265,9 @@ fieldset{
 button{
 font-family:
 }
+.contact{
+  color : #BFAF80;
+}
 /*-------------------------- About file------------------------------ */
 .centrInterest{
   color:;
@@ -295,7 +299,7 @@ font-family:
   left: 15%;
 }
 .centrInterest , .hobby , .lien{
-  margin-right: 1%;
+  /* margin-right: 1%; */
 
 }
 
@@ -407,7 +411,7 @@ font-family:
         font-size: 0.7em;
       }
       .competence , .lien{
-        width: 100%;
+        width: 90%;
       }
 }
 
@@ -430,6 +434,6 @@ font-family:
 
 }
 .bas{
-  width: 100%;
+  width: 95%;
   }
 }
